@@ -14,7 +14,7 @@ function checkPassword() {
 }
 
 function cargarCartas() {
-  fetch("data/letters.json")
+  fetch("letters.json")
     .then((res) => res.json())
     .then((data) => {
       const contenedor = document.getElementById("cartas-container");
