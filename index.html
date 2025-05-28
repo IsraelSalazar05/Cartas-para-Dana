@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cartas para Dana</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="login">
+    <h1>Bienvenida Dana 💌</h1>
+    <p>Introduce la clave mágica:</p>
+    <input type="password" id="password" />
+    <small id="pista" style="display:block; margin-top: 5px; color: gray;"></small>
+    <button onclick="checkPassword()">Entrar</button>
+    <p id="error" style="color: red;"></p>
+  </div>
+
+  <div id="main" style="display: none;">
+    <h2>Tus Cartas</h2>
+    <div id="cartas-container"></div>
+  </div>
+
+  <div id="modal" class="modal hidden">
+    <div class="carta">
+      <span class="cerrar" onclick="cerrarCarta()">&times;</span>
+      <h2 id="modal-titulo"></h2>
+      <p id="modal-fecha" style="color: gray; font-size: 14px;"></p>
+      <div id="modal-contenido"></div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
