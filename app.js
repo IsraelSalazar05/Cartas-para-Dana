@@ -1,5 +1,5 @@
-const CLAVE = "escribido";
-const PISTA = "Que bien escribes, Mi amor.";
+const CLAVE = "ajedrez";
+const PISTA = "Queso";
 
 function checkPassword() {
   const pass = document.getElementById("password").value;
