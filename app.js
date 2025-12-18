@@ -1,5 +1,5 @@
-const CLAVE = "ajedrez";
-const PISTA = "Queso";
+const CLAVE = "eres mi...";
+const PISTA = "goldenwawan";
 
 function checkPassword() {
   const pass = document.getElementById("password").value;
@@ -41,3 +41,4 @@ function cerrarCarta() {
 }
 
 document.getElementById("pista").textContent = `Pista: ${PISTA}`;
+
