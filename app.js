@@ -1,5 +1,5 @@
-const CLAVE = "goldenwawan";
-const PISTA = "Eres mi...";
+const CLAVE = "Norman";
+const PISTA = "Tu novio preferido es...";
 
 function checkPassword() {
   const pass = document.getElementById("password").value;
